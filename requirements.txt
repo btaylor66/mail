@@ -1,0 +1,65 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Gmail API
+google-api-python-client==2.108.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+google-auth==2.25.2
+
+# Queue and Task Processing
+celery==5.3.4
+redis==5.0.1
+flower==2.0.1
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# Security and Encryption
+cryptography==41.0.7
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Email Processing
+beautifulsoup4==4.12.2
+lxml==4.9.3
+python-dateutil==2.8.2
+email-validator==2.1.0
+
+# Natural Language Processing (for event extraction)
+spacy==3.7.2
+dateparser==1.2.0
+
+# HTTP and Requests
+httpx==0.25.2
+aiohttp==3.9.1
+
+# Configuration and Environment
+python-dotenv==1.0.0
+
+# Logging and Monitoring
+structlog==23.2.0
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.25.2  # For testing async HTTP
+
+# Development Tools
+black==23.12.0
+flake8==6.1.0
+isort==5.13.2
+mypy==1.7.1
+
+# Utilities
+tenacity==8.2.3  # Retry logic
+schedule==1.2.0  # Simple scheduling (alternative to Celery Beat)
+pytz==2023.3.post1  # Timezone handling
